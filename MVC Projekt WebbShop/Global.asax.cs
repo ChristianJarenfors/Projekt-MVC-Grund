@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC_Projekt_WebbShop.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,12 @@ namespace MVC_Projekt_WebbShop
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+        }
+        protected void Session_Start(object sender, EventArgs e)
+        {
+            Session["ProductList"] = Product.Catalogue;
+           
         }
     }
 }
