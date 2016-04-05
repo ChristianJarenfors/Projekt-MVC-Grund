@@ -25,6 +25,10 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
+                <form  action="/Search/Result" method="post">
+                    <input type="text" name="search" value="" placeholder="Enter search here..." />
+                    <button type="submit">Search</button>
+                </form>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
