@@ -234,3 +234,6 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+#Bin och debugg
+MVC Projekt WebbShop\bin
+*thumbs.db
