@@ -8,7 +8,7 @@ namespace MVC_Projekt_WebbShop
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+           
         }
     }
 }
