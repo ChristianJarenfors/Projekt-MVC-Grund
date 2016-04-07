@@ -67,6 +67,7 @@ C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\bin\Mi
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.csprojResolveAssemblyReference.cache
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.dll
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.pdb
+<<<<<<< HEAD
 C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\csc.exe
 C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -205,3 +206,5 @@ C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie
 C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.csprojResolveAssemblyReference.cache
 C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.dll
 C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.pdb
+=======
+>>>>>>> 960636b412035f6986e19406b051aaa714afe320

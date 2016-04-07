@@ -15,6 +15,7 @@ namespace MVC_Projekt_WebbShop.Models
         public double Price { get; set; }
         public string PictureURL{ get; set; }
         public string Description { get; set; }
+        public Product() { }
         public Product(int ID, int INSTORAGE, double PRICE, string NAME, string DESCRIPTION, string PICTUREURL)
         {
             Id = ID;

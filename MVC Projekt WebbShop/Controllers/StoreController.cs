@@ -26,27 +26,120 @@ namespace MVC_Projekt_WebbShop.Controllers
             
         }
 
-        public ActionResult Edit()
-        {
 
-            return View();
+        public ActionResult Edit(int id)
+
+        {
+            List<Product> List = (List<Product>)Session["ProductList"];
+            Product p = new Product();
+            foreach (Product pn in List)
+            {
+                if (pn.Id == id)
+                {
+                    p.Name = pn.Name;
+                    p.Description = pn.Description;
+                    p.Id = pn.Id;
+                    p.InStorage = pn.InStorage;
+                    p.Price = pn.Price;
+                    p.PictureURL = pn.PictureURL;
+                }
+            }
+
+            return View(p);
         }
 
 
-        public ActionResult Delete()
+        public ActionResult Delete(int? ID)
         {
-
-            return View();
-        }
-        public ActionResult Details()
-        {
+            List<Product> List = (List<Product>)Session["ProductList"];
+            Product item=null;
+            if (ID == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            else
+            {
+                if (Request["Delete"]!=null)
+                {
+                    item = List.First(x => x.Id == ID);
+                }            
+            }
             
-          
-            return View();
-           
+            if (item != null )
+            {
+                List.Remove(item);
+            }
+
+
+            if (Request["Delete"]==null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("StoreIndex");
+            }
+
+            
+        }
+        public ActionResult Details(int id)
+        {
+            List<Product> List = (List<Product>)Session["ProductList"];
+            Product p = new Product();
+            foreach (Product pn in List)
+            {
+                if (pn.Id == id)
+                {
+                    p.Name = pn.Name;
+                    p.Description = pn.Description;
+                    p.Id = pn.Id;
+                    p.InStorage = pn.InStorage;
+                    p.Price = pn.Price;
+                    p.PictureURL = pn.PictureURL;
+                }
+            }
+
+            return View(p);
+        }
+        [HttpPost]
+        public ActionResult Edit(Product p)
+        {
+            List<Product> List = (List<Product>)Session["ProductList"];
+            if (!ModelState.IsValid)
+            {
+                return View("Edit", p);
+            }
+
+            foreach (Product pn in List)
+            {
+                if (pn.Id == p.Id)
+                {
+                    pn.Name = p.Name;
+                    pn.Description = p.Description;
+                    pn.Id = p.Id;
+                    pn.InStorage = p.InStorage;
+                    pn.Price = p.Price;
+                    pn.PictureURL = p.PictureURL;
+                }
+            }
+
+            return RedirectToAction("StoreIndex");
         }
 
+        [HttpPost]
+        public ActionResult Create(Product p)
+        {
+            List<Product> List = (List<Product>)Session["ProductList"];
+            if (!ModelState.IsValid)
+            {
+                return View("Create", p);
+            }
 
+
+            List.Add(p);
+
+            return RedirectToAction("StoreIndex");
+        }
 
     }
 }
