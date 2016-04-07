@@ -241,14 +241,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Store\StoreIndex.cshtml" />
-
     <Content Include="Views\Search\Result.cshtml" />
     <Content Include="Views\Search\SearchNotFound.cshtml" />
-
-    <Content Include="Views\Store\Create.cshtml" />
     <Content Include="Views\Store\Edit.cshtml" />
     <Content Include="Views\Store\Delete.cshtml" />
-
+    <Content Include="Views\Store\Create.cshtml" />
+    <Content Include="Views\Store\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

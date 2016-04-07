@@ -18,12 +18,14 @@ namespace MVC_Projekt_WebbShop.Controllers
 
             return View((List<Product>)Session["ProductList"]);
         }
+      
         public ActionResult Create()
         {
-
-            return View();
+                
+                return View();
+            
         }
-        
+
         public ActionResult Edit()
         {
 
@@ -36,6 +38,14 @@ namespace MVC_Projekt_WebbShop.Controllers
 
             return View();
         }
+        public ActionResult Details()
+        {
+            
+          
+            return View();
+           
+        }
+
 
 
     }
