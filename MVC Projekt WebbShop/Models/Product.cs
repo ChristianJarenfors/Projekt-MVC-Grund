@@ -22,8 +22,9 @@ namespace MVC_Projekt_WebbShop.Models
             Price = PRICE;
             Name = NAME;
             Description = DESCRIPTION;
-            PictureURL=PICTUREURL;
+            PictureURL = PICTUREURL;
         }
+
         //public static IEnumerable<Product> List = {new  }; 
         public static List<Product> Catalogue = new List<Product>()
         { new Product(1, 3, 499.99, 
@@ -56,5 +57,10 @@ namespace MVC_Projekt_WebbShop.Models
                         @"https://cf.geekdo-images.com/images/pic2949287_t.jpg")
 
              };
+
+        ////public static IEnumerable<Product> List = {new  }; 
+       
+
+
     }
 }
