@@ -15,8 +15,18 @@ namespace MVC_Projekt_WebbShop.Controllers
         // GET: Store
         public ActionResult StoreIndex()
         {
-
-            return View((List<Product>)Session["ProductList"]);
+            if (Session["Search"]==null)
+            {
+                return View((List<Product>)Session["ProductList"]);
+            }
+            else
+            {
+                List<Product> SearchResult = (List<Product>)Session["Search"];
+                Session["Search"] = null;
+                return View(SearchResult);
+            }
+            
+            
         }
         public ActionResult Create()
         {

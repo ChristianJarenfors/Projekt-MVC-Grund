@@ -25,7 +25,9 @@ namespace MVC_Projekt_WebbShop.Controllers
             t.Description.ToLower().Contains(search.ToLower())
             )
         .ToList();
-                return View(find.ToList());
+                //return View(find.ToList());
+                Session["Search"] = find;
+                return RedirectToAction("StoreIndex","Store");
             }
             else
             {
