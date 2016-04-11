@@ -25,12 +25,14 @@ namespace MVC_Projekt_WebbShop.Controllers
                     //ViewBag.IsLoggedIn = true;
                     Session["LoginStatus"] = true;
                     Session["User"] = User;
+                    return RedirectToAction("Index", "Home");
                 }
                 else if (Request["logoutButton"] != null)
                 {
                     //ViewBag.IsLoggedIn = false;
                     Session["LoginStatus"] = false;
                     ViewBag.Message = null;
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {

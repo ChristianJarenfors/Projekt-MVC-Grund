@@ -22,5 +22,14 @@ namespace MVC_Projekt_WebbShop.Models
             Id = p.Id;
             Sum = Antal * p.Price;
         }
+        public static double ShoppingTotalSum(List<ShoppingItem> ShoppingList)
+        {
+            double sum=0;
+            foreach (var item in ShoppingList)
+            {
+               sum += item.Sum;
+            }
+            return sum;
+        }
     }
 }

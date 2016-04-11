@@ -11,23 +11,20 @@ namespace MVC_Projekt_WebbShop.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public bool EditAdminAthority { get; set; }
-        public AuthorizeAttribute Role { get; set; }
+       
         public UserModel() {
             Name = "Guest";
             Email = "guest@guest.com";
             Password = "Password";
             EditAdminAthority = false;
+            
         }
         public UserModel(string name, string email, string password,bool admin)
         {
             Name = name;
             Email = email; 
             Password = password;
-            if (EditAdminAthority) {
-                Role.Roles = "Admin";
-                
-            }
-   
+            EditAdminAthority = admin;
         }
         public static object[] Check(string user, string pass, List<UserModel> List)
         {
