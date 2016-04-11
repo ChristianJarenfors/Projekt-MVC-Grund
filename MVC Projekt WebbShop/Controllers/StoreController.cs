@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace MVC_Projekt_WebbShop.Controllers
 {
+    
     public class StoreController : Controller
     {
         
@@ -28,12 +29,14 @@ namespace MVC_Projekt_WebbShop.Controllers
             
             
         }
+
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
 
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int id)
         {
             List<Product> List = (List<Product>)Session["ProductList"];
@@ -54,7 +57,7 @@ namespace MVC_Projekt_WebbShop.Controllers
             return View(p);
         }
 
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? ID)
         {
             List<Product> List = (List<Product>)Session["ProductList"];
@@ -88,6 +91,7 @@ namespace MVC_Projekt_WebbShop.Controllers
 
             
         }
+        [Authorize(Roles = "Admin")]
         public ActionResult Details(int id)
         {
             List<Product> List = (List<Product>)Session["ProductList"];
@@ -108,6 +112,7 @@ namespace MVC_Projekt_WebbShop.Controllers
             return View(p);
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(Product p)
         {
             List<Product> List = (List<Product>)Session["ProductList"];
@@ -132,6 +137,7 @@ namespace MVC_Projekt_WebbShop.Controllers
             return RedirectToAction("StoreIndex");
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create(Product p)
         {
             List<Product> List = (List<Product>)Session["ProductList"];

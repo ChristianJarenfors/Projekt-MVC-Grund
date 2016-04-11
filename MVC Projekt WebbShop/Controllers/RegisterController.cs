@@ -11,6 +11,7 @@ namespace MVC_Projekt_WebbShop.Controllers
         // GET: Register
         public ActionResult Index()
         {
+
             return View();
         }
     }

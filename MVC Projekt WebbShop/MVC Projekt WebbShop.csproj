@@ -250,12 +250,12 @@
     <Content Include="Views\Store\Edit.cshtml" />
     <Content Include="Views\Store\Create.cshtml" />
     <Content Include="Views\Store\Details.cshtml" />
+    <Content Include="Views\Register\Index.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Default\" />
-    <Folder Include="Views\Login\" />
-    <Folder Include="Views\Register\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

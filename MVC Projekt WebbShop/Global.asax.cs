@@ -22,7 +22,12 @@ namespace MVC_Projekt_WebbShop
         protected void Session_Start(object sender, EventArgs e)
         {
            Session["ProductList"] = Product.Catalogue;
-           
+            Session["AnvändarLista"] = new List<UserModel>() {
+                                            new UserModel(),
+                                            new UserModel("JohnDoe", "unknown@ymail.com","Hej123",false),
+                                            new UserModel("admin","admin@gmail.com","qwerty123",true)};
+            Session["User"] = null;
+            Session["LoginStatus"] = false;
         }
     }
 }

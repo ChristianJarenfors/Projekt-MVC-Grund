@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Login";
+
+}
+
+<h2>Login</h2>
+@{if (!(bool)Session["LoginStatus"])
+    {
+        <form action="/Login/Login" method="post">
+
+            <input type="text" name="Username" placeholder="Username" value="" />
+            <label for="Username">Användarnamn</label>
+            <br />
+
+            <input type="password" name="Password" placeholder="Password" value="" />
+            <label for="Password">Lösenord</label>
+
+            <p style="color:indianred">@ViewBag.Message</p>
+
+            <button type="submit">Logga In!</button>
+        </form>
+    }
+    else
+    {
+        <p>Du är inloggad som <strong>@Session["USER"]</strong></p>
+        <a href="/Event/Events">Till tabell!</a>
+        <form action="/Login/Login" method="post">
+        <button type="submit" name="logoutButton">Logga ut!</button>
+
+    </form>
+}
+}

@@ -10,7 +10,7 @@ using MVC_Projekt_WebbShop.Models;
 
 namespace MVC_Projekt_WebbShop.Controllers
 {
-    [Authorize]
+    
     public class ManageController : Controller
     {
         private ApplicationSignInManager _signInManager;
