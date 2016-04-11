@@ -25,7 +25,10 @@ namespace MVC_Projekt_WebbShop
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/Buttons.css",
+                     
                       "~/Content/site.css"));
+          
         }
     }
 }

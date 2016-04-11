@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+<form action="Register/Index" method="post">
+    <input type="text" name="Namn" placeholder="@Request["Namn"]" />
+    <input type="email" name="Email" placeholder="@Request["Email"]"/>
+    <input type="password" name="Password" placeholder="@Request["Password"]" />
+    <button type="submit">Register</button>
+
+</form>
+

@@ -1,4 +1,4 @@
-﻿@model MVC_Projekt_WebbShop.Models.Product
+@model MVC_Projekt_WebbShop.Models.Product
 
 @{
     ViewBag.Title = "Details";
@@ -6,53 +6,65 @@
 
 <h2>Details</h2>
 
-<div>
-    <h4>Product</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
+<div class="container">
+    <div class="row">
+        <h4>Product</h4>
+        <hr />
+        <div class="col-md-4">
+            <dl class="dl-horizontal">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.InStorage)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.InStorage)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.InStorage)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Price)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.InStorage)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.PictureURL)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.PictureURL)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.PictureURL)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Description)
-        </dd>
+                <dd>
+                    <img src="@Url.Content(Model.PictureURL)" alt="Nada" />
+                </dd>
 
-    </dl>
+            </dl>
+        </div>
+        <div class="col-md-8">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+            </dl>
+        </div>
+    </div>
+
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+
     @Html.ActionLink("Back to List", "StoreIndex")
+
 </p>

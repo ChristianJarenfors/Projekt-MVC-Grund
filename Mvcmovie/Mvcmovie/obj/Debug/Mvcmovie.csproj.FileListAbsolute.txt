@@ -67,3 +67,144 @@ C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\bin\Mi
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.csprojResolveAssemblyReference.cache
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.dll
 C:\Users\karloskar\Desktop\arbeten inom VS\netframework\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.pdb
+<<<<<<< HEAD
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\csc.exe
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\vbc.exe
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\VBCSCompiler.exe
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Mvcmovie.dll.config
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Mvcmovie.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Mvcmovie.pdb
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Antlr3.Runtime.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\EntityFramework.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\EntityFramework.SqlServer.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Newtonsoft.Json.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Owin.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Helpers.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Mvc.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Optimization.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Razor.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Razor.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\WebGrease.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Helpers.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Mvc.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Optimization.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.Razor.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Razor.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Antlr3.Runtime.pdb
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Newtonsoft.Json.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\EntityFramework.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\EntityFramework.SqlServer.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.csprojResolveAssemblyReference.cache
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.dll
+C:\Users\Christian\OneDrive\WEBB\MVC\MVC Projekt WebbShop\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.pdb
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\csc.exe
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\vbc.exe
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\VBCSCompiler.exe
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Mvcmovie.dll.config
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Mvcmovie.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Mvcmovie.pdb
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Antlr3.Runtime.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\EntityFramework.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\EntityFramework.SqlServer.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Newtonsoft.Json.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Owin.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Helpers.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Mvc.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Optimization.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Razor.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Deployment.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Razor.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\WebGrease.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Helpers.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Mvc.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Optimization.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.Razor.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Deployment.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\System.Web.WebPages.Razor.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Antlr3.Runtime.pdb
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Newtonsoft.Json.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\EntityFramework.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\EntityFramework.SqlServer.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.csprojResolveAssemblyReference.cache
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.dll
+C:\Users\karloskar\Desktop\webbshopkarloskar\Projekt-MVC-Grund\Mvcmovie\Mvcmovie\obj\Debug\Mvcmovie.pdb
+=======
+>>>>>>> 960636b412035f6986e19406b051aaa714afe320
