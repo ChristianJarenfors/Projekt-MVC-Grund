@@ -39,8 +39,12 @@
                     <form action="/Login/Login" method="post">
                         <button type="submit">Login</button>
                     </form>
-                    } else{
-                    <h2 style="color:white">Välkommen ((UserModel)Session["User"]).Name</h2>
+                    } else {
+                    <h2 style="color:white">Välkommen @if (Session["User"]!=null)
+                    {
+                        Write((((UserModel)Session["User"]).Name));
+                    } 
+	</h2>
                     <form action="/Login/Logout" method="post">
                         <button type="submit"name="logoutButton">Login Out</button>
                     </form>

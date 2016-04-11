@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace MVC_Projekt_WebbShop.Controllers
 {
-    [Authorize]
+    
     public class LoginController : Controller
     {
         // GET: Login
@@ -46,6 +46,7 @@ namespace MVC_Projekt_WebbShop.Controllers
         public ActionResult Logout()
         {
             Session["User"] = null;
+            Session["LoginStatus"] = false;
             return RedirectToAction("Index", "Home");
         }
     }
