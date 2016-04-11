@@ -1,10 +1,11 @@
-﻿@model MVC_Projekt_WebbShop.Models.Product
+@model MVC_Projekt_WebbShop.Models.Product
 
 @{
     ViewBag.Title = "Details";
 }
 
 <h2>Details</h2>
+
 
 <div class="container">
     <div class="row">
@@ -42,7 +43,7 @@
                 </dt>
 
                 <dd>
-                    @Html.DisplayFor(model => model.PictureURL)
+                    <img src="@Url.Content(Model.PictureURL)" alt="Nada" />
                 </dd>
 
             </dl>
@@ -59,6 +60,7 @@
             </dl>
         </div>
     </div>
+
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |

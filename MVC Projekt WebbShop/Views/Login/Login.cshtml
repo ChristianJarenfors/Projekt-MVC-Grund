@@ -6,7 +6,7 @@
 <h2>Login</h2>
 @{if (!(bool)Session["LoginStatus"])
     {
-        <form action="/Login/Login" method="post">
+        <form action="/Login/Login" method="post" >
 
             <input type="text" name="Username" placeholder="Username" value="" />
             <label for="Username">Användarnamn</label>
@@ -23,7 +23,7 @@
     else
     {
         <p>Du är inloggad som <strong>@Session["USER"]</strong></p>
-        <a href="/Event/Events">Till tabell!</a>
+        <a href="~/Store/StoreIndex">Till Produkterna!</a>
         <form action="/Login/Login" method="post">
         <button type="submit" name="logoutButton">Logga ut!</button>
 
