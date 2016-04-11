@@ -21,6 +21,7 @@ namespace MVC_Projekt_WebbShop
         }
         protected void Session_Start(object sender, EventArgs e)
         {
+
            Session["ProductList"] = Product.Catalogue;
            
         }

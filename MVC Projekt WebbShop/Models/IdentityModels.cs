@@ -31,5 +31,7 @@ namespace MVC_Projekt_WebbShop.Models
         }
 
         public System.Data.Entity.DbSet<MVC_Projekt_WebbShop.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<MVC_Projekt_WebbShop.Models.ShoppingItem> ShoppingItems { get; set; }
     }
 }

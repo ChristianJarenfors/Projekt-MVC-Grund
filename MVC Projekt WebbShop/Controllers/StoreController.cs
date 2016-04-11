@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace MVC_Projekt_WebbShop.Controllers
 {
+   
     public class StoreController : Controller
     {
         
@@ -18,18 +19,96 @@ namespace MVC_Projekt_WebbShop.Controllers
 
             return View((List<Product>)Session["ProductList"]);
         }
-      
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
                 
                 return View();
             
         }
+        public ActionResult AddToCart(int id)
+        {
+            if ((List<ShoppingItem>)Session["ShoppingItems"] == null)
+            {
+                Session["ShoppingItems"] = new List<ShoppingItem>();
 
+            }
+            List<ShoppingItem> List = (List<ShoppingItem>)Session["ShoppingItems"];
+            Product p = new Product();
+            foreach (Product pn in (List<Product>)Session["ProductList"])
+            {
+                bool ejtillagd = true;
+                if (pn.Id == id)
+                {
+                    foreach (ShoppingItem item in List)
+                    {
+                        if (item.Product == pn)
+                        {
+                            item.Antal += 1;
+                            item.Sum = item.Antal * item.Product.Price;
+                            ejtillagd = false;
+                        }
+                        
+                    }
+                    if (ejtillagd)
+                    {
+                        List.Add(new ShoppingItem(1, pn));
+                    }
+                    
+                }
+            }
+            Session["ShoppingItems"] = List;
+            return View(List);
+
+
+        }
+        public ActionResult RemoveFromCart(int? ID)
+        {
+            List<ShoppingItem> List = (List<ShoppingItem>)Session["ShoppingItems"];
+            ShoppingItem item = null;
+            if (ID == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            else
+            {
+                if (Request["Remove"] != null)
+                {
+                    item = List.First(x => x.Id == ID);
+                }
+            }
+
+            if (item != null)
+            {
+                if (item.Antal == int.Parse(Request["Antal"]))
+                {
+                    List.Remove(item);
+                }
+                else
+                {
+                    item.Antal -= int.Parse(Request["Antal"]);
+                    item.Sum = item.Antal * item.Product.Price;
+                }
+                
+            }
+
+
+            if (Request["Remove"] == null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("StoreIndex");
+            }
+
+           
+        }
 
         public ActionResult Edit(int id)
 
         {
+
             List<Product> List = (List<Product>)Session["ProductList"];
             Product p = new Product();
             foreach (Product pn in List)
@@ -46,6 +125,8 @@ namespace MVC_Projekt_WebbShop.Controllers
             }
 
             return View(p);
+
+          
         }
 
 
