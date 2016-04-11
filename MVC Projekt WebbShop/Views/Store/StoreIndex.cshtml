@@ -55,9 +55,9 @@
             
         </td>
         <td>
-            @{if (item.Description.Count() < 700)
+            @{if (item.Description.Length < 570)
                 {
-                    Html.DisplayFor(modelItem => item.Description);
+                    @Html.DisplayFor(modelItem => item.Description);
                 }
                 else
                 {
@@ -65,6 +65,7 @@
                     {
                         Write(item.Description[i]);
                     }
+                    <br/>
                     @Html.ActionLink("Read more...", "Details", new { id = item.Id });
                 }
             }
@@ -75,37 +76,39 @@
             {
                 if (((UserModel)Session["User"]).EditAdminAthority)
                 {
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id });
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.Id });
                     Write("|");
                     @Html.ActionLink("Details", "Details", new { id = item.Id });
                     Write("|");
                     @Html.ActionLink("Delete", "Delete", new { id = item.Id });
-                    Write("|");
+                    Write("|");*@
+                    <button class="btn btn-default hejsan">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                    </button>
+                    <button class="btn btn-default hejsan">
+                        @Html.ActionLink("Details", "Details", new { id = item.Id })
+                    </button>
+                    <button class="btn btn-default hejsan">
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </button>
                 }
             }
         }
-            @Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })
+            @*@Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })*@
+            <button class=" btn btn-default hejsan">
+                @Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })
+            </button>
         </td>
     </tr>
-
+    <tr>
         <td>
 
-            <div class="btn-group-vertical">
-                <button class="btn btn-default hejsan">
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
-                </button>
-                <button class="btn btn-default hejsan">
-                    @Html.ActionLink("Details", "Details", new { id = item.Id })
-                </button>
-                <button class="btn btn-default hejsan">
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </button>
-                <button class=" btn btn-default hejsan">
-                    @Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })
-                </button>
+            @*<div class="btn-group-vertical">
+                
+                
 
 
-            </div>
+            </div>*@
 
 </td>
     
