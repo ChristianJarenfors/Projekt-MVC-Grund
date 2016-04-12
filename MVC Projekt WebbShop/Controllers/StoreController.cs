@@ -67,6 +67,13 @@ namespace MVC_Projekt_WebbShop.Controllers
                     {
                         if (item.Product == pn)
                         {
+                            if (pn.InStorage==item.Antal)
+                            {
+                                //TempData["Message"] = "No more items available";
+                                //return View(List);
+
+                                return Content("<script language='javascript' type='text/javascript'>alert('No more items available');</script>");
+                            }
                             item.Antal += 1;
                             item.Sum = item.Antal * item.Product.Price;
                             ejtillagd = false;
@@ -103,11 +110,11 @@ namespace MVC_Projekt_WebbShop.Controllers
 
             if (item != null)
             {
-                if (item.Antal == int.Parse(Request["Antal"]))
+                if ((item.Antal <= int.Parse(Request["Antal"])))
                 {
                     List.Remove(item);
                 }
-                else
+                else 
                 {
                     item.Antal -= int.Parse(Request["Antal"]);
                     item.Sum = item.Antal * item.Product.Price;
