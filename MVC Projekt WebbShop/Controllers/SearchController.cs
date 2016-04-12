@@ -17,14 +17,18 @@ namespace MVC_Projekt_WebbShop.Controllers
             //           where x.Name == Request["search"]
             //           select x;
             var search = Request["search"];
-
-            if (search != "" && search!=null)
-            {
-                var find = Product.Catalogue.Where(t =>
+            var find = Product.Catalogue.Where(t =>
             t.Name.ToLower().Contains(search.ToLower()) ||
             t.Description.ToLower().Contains(search.ToLower())
             )
         .ToList();
+            if (search != "" && search!=null && find.Count!= 0)
+            {
+        //        var find = Product.Catalogue.Where(t =>
+        //    t.Name.ToLower().Contains(search.ToLower()) ||
+        //    t.Description.ToLower().Contains(search.ToLower())
+        //    )
+        //.ToList();
                 //return View(find.ToList());
                 Session["Search"] = find;
                 return RedirectToAction("StoreIndex","Store");
