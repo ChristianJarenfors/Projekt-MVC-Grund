@@ -4,117 +4,77 @@
     ViewBag.Title = "StoreIndex";
   
 }
+<div class="tjena">
+    <h2>StoreIndex</h2>
 
-<h2>StoreIndex</h2>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InStorage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PictureURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
 
-<p>
-    @{if (Session["User"] != null)
+
+        @foreach (var item in Model)
         {
-            if (((UserModel)Session["User"]).EditAdminAthority)
-            {
-                @Html.ActionLink("Create New", "Create")
-            }
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InStorage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <img src="@Url.Content(item.PictureURL)" alt="Nada" />
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+
+                    <div class="btn-group-vertical">
+                        <button class="btn btn-default hejsan">
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                        </button>
+                        <button class="btn btn-default hejsan">
+                            @Html.ActionLink("Details", "Details", new { id = item.Id })
+                        </button>
+                        <button class="btn btn-default hejsan">
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        </button>
+                        <button class=" btn btn-default hejsan">
+                            @Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })
+                        </button>
+
+
+                    </div>
+
+                </td>
+
+
+            </tr>
         }
-    }
-    
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.InStorage)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PictureURL)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model)
-{
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.InStorage)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            <img src="@Url.Content(item.PictureURL)" alt="Nada" />
-            
-        </td>
-        <td>
-            @{if (item.Description.Length < 570)
-                {
-                    @Html.DisplayFor(modelItem => item.Description);
-                }
-                else
-                {
-                    for (int i = 0; i < 700; i++)
-                    {
-                        Write(item.Description[i]);
-                    }
-                    <br/>
-                    @Html.ActionLink("Read more...", "Details", new { id = item.Id });
-                }
-            }
-
-        </td>
-
-        <td>@{if (Session["User"]!=null)
-            {
-                if (((UserModel)Session["User"]).EditAdminAthority)
-                {
-                    @*@Html.ActionLink("Edit", "Edit", new { id = item.Id });
-                    Write("|");
-                    @Html.ActionLink("Details", "Details", new { id = item.Id });
-                    Write("|");
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id });
-                    Write("|");*@
-                    <button class="btn btn-default hejsan">
-                        @Html.ActionLink("Edit", "Edit", new { id = item.Id })
-                    </button>
-                    <button class="btn btn-default hejsan">
-                        @Html.ActionLink("Details", "Details", new { id = item.Id })
-                    </button>
-                    <button class="btn btn-default hejsan">
-                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                    </button>
-                }
-            }
-        }
-            @*@Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })*@
-            <button class=" btn btn-default hejsan">
-                @Html.ActionLink("AddToCart", "AddToCart", new { id = item.Id })
-            </button>
-        </td>
-    </tr>
-    <tr>
-        <td>
-
-            @*<div class="btn-group-vertical">
-                
-                
 
 
-            </div>*@
-
-</td>
-    
-   
-     </tr>
-
-}
-
-</table>
+    </table>
+</div>
