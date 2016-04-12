@@ -37,7 +37,19 @@ namespace MVC_Projekt_WebbShop.Controllers
                 return View();
             
         }
-        public ActionResult AddToCart(int id)
+        
+        //public ActionResult AddToCart()
+        //{
+        //    //if ((List<ShoppingItem>)Session["ShoppingItems"] == null)
+        //    //{
+        //    //    Session["ShoppingItems"] = new List<ShoppingItem>();
+
+        //    //}
+        //    //List<ShoppingItem> List = (List<ShoppingItem>)Session["ShoppingItems"];
+        //    return View(/*List*/);
+        //}
+       
+        public ActionResult AddToCart(int? id)
         {
             if ((List<ShoppingItem>)Session["ShoppingItems"] == null)
             {

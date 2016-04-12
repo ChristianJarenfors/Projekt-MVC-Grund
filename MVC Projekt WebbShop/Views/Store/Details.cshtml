@@ -53,8 +53,14 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    <button class="btn btn-default hejsan">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+    </button>
+    <button class="btn btn-default hejsan">
+        @Html.ActionLink("Back to List", "StoreIndex")
+    </button>
+     
 
-    @Html.ActionLink("Back to List", "StoreIndex")
+    
 
 </p>

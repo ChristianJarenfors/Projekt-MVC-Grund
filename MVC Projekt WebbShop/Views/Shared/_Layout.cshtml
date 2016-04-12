@@ -1,6 +1,11 @@
 ﻿<!DOCTYPE html>
 @using MVC_Projekt_WebbShop.Models;
 <html>
+<style>
+    .menuListItem{
+        top:1em;
+    }
+</style>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,35 +30,44 @@
                     <li>@Html.ActionLink("Store", "StoreIndex", "Store")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                <form class="sök" action="/Search/Result" method="post"style="display:inline-block; margin-top: 15px; margin-left: 400px;">
-                    <input type="text" name="search" value="" placeholder="Enter search here..." />
-                    <button type="submit">Search</button>
-                </form>
-                @{if (!((bool)Session["LoginStatus"]))
-                    {
-                        
-                            <form action="/Register/Index" method="post" style="display:inline-block;">
-                                <button type="submit">Register</button>
-                            </form>
+                    <li>@Html.ActionLink("Kundvagn", "AddToCart", "Store")</li>
 
-                            <form action="/Login/Login" method="post"style="display:inline-block;">
-                                <button type="submit">Login</button>
-                            </form>
-                       
-                    }
-                    else
-                    {
-                    <h2 style="color:white">Välkommen @if (Session["User"]!=null)
-                    {
-                        Write((((UserModel)Session["User"]).Name));
-                    } 
-	</h2>
-                    <form action="/Login/Logout" method="post">
-                        <button type="submit"name="logoutButton">Login Out</button>
-                    </form>
+
+                    <li class="menuListItem">
+                        <form class="sök" action="/Search/Result" method="post" style="display:inline-block;align-items:flex-end;" @*margin-top: 15px; margin-left: 200px;*@>
+                            <input type="text" name="search" value="" placeholder="Enter search here..." />
+                            <button class="btn btn-default" type="submit">Search</button>
+                        </form>
+                    </li>
+                    @{if (!((bool)Session["LoginStatus"]))
+                        {
+                            <li class="menuListItem">
+                                <form action="/Register/Index" method="post" style="display:inline-block;">
+
+                                    <button class="btn btn-default" type="submit">Register</button>
+                                </form>
+
+                                <form action="/Login/Login" method="post" style="display:inline-block;">
+                                    <button class="btn btn-default" type="submit">Login</button>
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="menuListItem">
+                                <h5 style="color:black; display:inline-block; ">
+                                    Välkommen @if (Session["User"] != null)
+                                    {
+                                        Write((((UserModel)Session["User"]).Name));
+                                    }
+                                </h5>
+                                <form action="/Login/Logout" method="post" style="display:inline-block;">
+                                    <button class="btn btn-default" type="submit" name="logoutButton">LogOut</button>
+                                </form>
+                            </li>
                         }
                     }
+                </ul>
                 @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
