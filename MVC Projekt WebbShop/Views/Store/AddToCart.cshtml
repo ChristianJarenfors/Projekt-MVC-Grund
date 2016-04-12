@@ -43,7 +43,7 @@
             @Html.DisplayFor(modelItem => item.Sum) kr
         </td>
         <td>
-            @Html.ActionLink("Back To List", "StoreIndex", new { id=item.Id }) |
+            @Html.ActionLink("Back To List", "AddToCart", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
             @Html.ActionLink("Remove", "RemoveFromCart", new { id=item.Id })
         </td>
