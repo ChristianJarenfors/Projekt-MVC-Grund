@@ -73,6 +73,7 @@ namespace MVC_Projekt_WebbShop.Controllers
                                 //return View(List);
 
                                 return Content("<script language='javascript' type='text/javascript'>alert('No more items available');</script>");
+                                
                             }
                             item.Antal += 1;
                             item.Sum = item.Antal * item.Product.Price;
